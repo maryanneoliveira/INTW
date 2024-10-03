@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+    <title>Atividade 2</title>
+    <style>
+       
+    </style>
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Cadastro no Programa BSI2024</h1>
+        <p id="subtitulo">Complete as informações a seguir:</p>
+        <br>
+    </div>
+
+    <form action="#" method="get" target="_blank" autocomplete="off">
+        <fieldset class="grupo">
+            <div class="campo">
+
+                <!--NOME-->
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+            </div>
+
+            <div class="campo">
+                <!--EMAIL-->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email">  
+            </div>
+
+            <div class="campo">
+                 <!--SENHA-->
+                <label for="senha">Senha:</label>
+                 <input type="password" id="senha" name="senha" placeholder="Defina sua senha:" minlength="8" maxlength="8" required>
+            </div>
+
+            <div class="campo">
+                <!--DATA_NASCIMENTO-->
+                    <label for="dataNasc">Data de nascimento:</label>
+                    <input type="date" id="dataNasc" name="dataNasc">
+            </div>
+
+            <div class="campo">
+             <!--ÁREA DE INTERESSE-->
+                <label>Marque a(s) área(s) de interesse:</label>
+                <input type="checkbox" id="backend" name="backend"> Backend
+
+                <input type="checkbox" id="frontend" name="frontend"> Front-end
+
+                <input type="checkbox" id="full" name="full"> Full-stack
+
+                <input type="checkbox" id="desing" name="desing"> Desing
+
+                 
+            </div>
+
+            <div class="campo">
+            <!--GÊNERO-->
+                <label>Marque seu gênero:</label>
+                <label>
+                    <input type="radio" id="feminino"> Feminino
+                </label>
+
+                <label>
+                    <input type="radio" id="Masculino"> Masculino
+                </label>
+
+                <label>
+                    <input type="radio" id="outro"> Outro
+                </label>
+                
+         </div>
+         <!--CIDADES-->
+         <div class="campo">
+            
+                <label for="select">Cidades de Alagoas:</label>
+                <!--cidades de alagoas-->
+                <select id="select" name="select">
+                    <option value="agua-branca" label="Água Branca"></option>
+                    <option value="anadia" label="Anadia"></option>
+                    <option value="arapiraca" label="Arapiraca"></option>
+                    <option value="atalaia" label="Atalaia"></option>
+                    <option value="barra-de-santo-antonio" label="Barra de Santo Antônio"></option>
+                    <option value="barra-de-sao-miguel" label="Barra de São Miguel"></option>
+                    <option value="batalha" label="Batalha"></option>
+                    <option value="belem" label="Belém"></option>
+                    <option value="belo-monte" label="Belo Monte"></option>
+                    <option value="boca-da-mata" label="Boca da Mata"></option>
+                    <option value="branquinha" label="Branquinha"></option>
+                    <option value="cacimbinhas" label="Cacimbinhas"></option>
+                    <option value="cajueiro" label="Cajueiro"></option>
+                    <option value="campestre" label="Campestre"></option>
+                    <option value="campo-alegre" label="Campo Alegre"></option>
+                    <option value="campo-grande" label="Campo Grande"></option>
+                    <option value="canapi" label="Canapi"></option>
+                    <option value="capela" label="Capela"></option>
+                    <option value="carneiros" label="Carneiros"></option>
+                    <option value="cha-preta" label="Chã Preta"></option>
+                    <option value="coite-do-noia" label="Coité do Nóia"></option>
+                    <option value="colonia-leopoldina" label="Colônia Leopoldina"></option>
+                    <option value="coqueiro-seco" label="Coqueiro Seco"></option>
+                    <option value="coruripe" label="Coruripe"></option>
+                    <option value="craibas" label="Craíbas"></option>
+                    <option value="delmiro-gouveia" label="Delmiro Gouveia"></option>
+                    <option value="dois-riachos" label="Dois Riachos"></option>
+                    <option value="estrela-de-alagoas" label="Estrela de Alagoas"></option>
+                    <option value="feira-grande" label="Feira Grande"></option>
+                    <option value="feliz-deserto" label="Feliz Deserto"></option>
+                    <option value="flexeiras" label="Flexeiras"></option>
+                    <option value="girau-do-ponciano" label="Girau do Ponciano"></option>
+                    <option value="ibateguara" label="Ibateguara"></option>
+                    <option value="igaci" label="Igaci"></option>
+                    <option value="igreja-nova" label="Igreja Nova"></option>
+                    <option value="inhapi" label="Inhapi"></option>
+                    <option value="jacare-dos-homens" label="Jacaré dos Homens"></option>
+                    <option value="jacuipe" label="Jacuípe"></option>
+                    <option value="japaratinga" label="Japaratinga"></option>
+                    <option value="jatauba" label="Jataúba"></option>
+                    <option value="jequia-da-praia" label="Jequiá da Praia"></option>
+                    <option value="joaquim-gomes" label="Joaquim Gomes"></option>
+                    <option value="jundia" label="Jundiá"></option>
+                    <option value="junqueiro" label="Junqueiro"></option>
+                    <option value="lagoa-da-canoa" label="Lagoa da Canoa"></option>
+                    <option value="limoeiro-de-anadia" label="Limoeiro de Anadia"></option>
+                    <option value="maceio" label="Maceió"></option>
+                    <option value="major-izidoro" label="Major Izidoro"></option>
+                    <option value="mar-vermelo" label="Mar Vermelho"></option>
+                    <option value="maragogi" label="Maragogi"></option>
+                    <option value="maravilha" label="Maravilha"></option>
+                    <option value="marechal-deodoro" label="Marechal Deodoro"></option>
+                    <option value="maribondo" label="Maribondo"></option>
+                    <option value="mata-grande" label="Mata Grande"></option>
+                    <option value="matriz-de-camaragibe" label="Matriz de Camaragibe"></option>
+                    <option value="messias" label="Messias"></option>
+                    <option value="minador-do-negrao" label="Minador do Negrão"></option>
+                    <option value="monteiropolis" label="Monteirópolis"></option>
+                    <option value="murici" label="Murici"></option>
+                    <option value="novo-lino" label="Novo Lino"></option>
+                    <option value="olho-dagua-das-flores" label="Olho d'Água das Flores"></option>
+                    <option value="olho-dagua-do-casado" label="Olho d'Água do Casado"></option>
+                    <option value="olho-dagua-grande" label="Olho d'Água Grande"></option>
+                    <option value="olivença" label="Olivença"></option>
+                    <option value="ouro-branco" label="Ouro Branco"></option>
+                    <option value="palestina" label="Palestina"></option>
+                    <option value="palmeira-dos-indios" label="Palmeira dos Índios"></option>
+                    <option value="pao-de-acucar" label="Pão de Açúcar"></option>
+                    <option value="pariconha" label="Pariconha"></option>
+                    <option value="paripueira" label="Paripueira"></option>
+                    <option value="passo-de-camaragibe" label="Passo de Camaragibe"></option>
+                    <option value="paulo-jacinto" label="Paulo Jacinto"></option>
+                    <option value="penedo" label="Penedo"></option>
+                    <option value="piacabucu" label="Piaçabuçu"></option>
+                    <option value="pilar" label="Pilar"></option>
+                    <option value="pindoba" label="Pindoba"></option>
+                    <option value="piranhas" label="Piranhas"></option>
+                    <option value="poco-das-trincheiras" label="Poço das Trincheiras"></option>
+                    <option value="porto-calvo" label="Porto Calvo"></option>
+                    <option value="porto-de-pedras" label="Porto de Pedras"></option>
+                    <option value="porto-real-do-colegio" label="Porto Real do Colégio"></option>
+                    <option value="quebrangulo" label="Quebrangulo"></option>
+                    <option value="rio-largo" label="Rio Largo"></option>
+                    <option value="roteiro" label="Roteiro"></option>
+                    <option value="santa-luzia-do-norte" label="Santa Luzia do Norte"></option>
+                    <option value="santana-do-ipanema" label="Santana do Ipanema"></option>
+                    <option value="santana-do-mundau" label="Santana do Mundaú"></option>
+                    <option value="sao-bras" label="São Brás"></option>
+                    <option value="sao-jose-da-laje" label="São José da Laje"></option>
+                    <option value="sao-jose-da-tapera" label="São José da Tapera"></option>
+                    <option value="sao-luis-do-quitunde" label="São Luís do Quitunde"></option>
+                    <option value="sao-miguel-dos-campos" label="São Miguel dos Campos"></option>
+                    <option value="sao-miguel-dos-milagres" label="São Miguel dos Milagres"></option>
+                    <option value="sao-sebastiao" label="São Sebastião"></option>
+                    <option value="satuba" label="Satuba"></option>
+                    <option value="senador-rui-palmeira" label="Senador Rui Palmeira"></option>
+                    <option value="tanque-darca" label="Tanque d'Arca"></option>
+                    <option value="taquarana" label="Taquarana"></option>
+                    <option value="teotonio-vilela" label="Teotônio Vilela"></option>
+                    <option value="traipu" label="Traipu"></option>
+                    <option value="uniao-dos-palmares" label="União dos Palmares"></option>
+                    <option value="vicosa" label="Viçosa"></option>
+                </select>
+            
+         </div>
+
+            <div class="campo">
+            <!--qntd PRODUTO-->
+                
+                <label for="produto">Quantos produtos voce deseja adquirir?</label>
+                    <input type="number" id="produto" name="produto">
+                
+            </div>
+
+            <div class="campo">
+                <!--OBSERVAÇÕES-->
+                <br>
+                 <label>Informações Adicionais:</label>
+                <textarea rows="6" style="width: 26em;" id="outras informações" name="outras Informaçõess" placeholder="ponto de referencia, numero da casa e etc...">
+                </textarea>
+             >
+                
+            </div>
+
+            <div class="botao">
+             <!--BOTÕES-->
+                 
+                    <button type="reset">Limpar</button>
+                    <button type="submit">Enviar</button>
+                
+            </div>
+        </fieldset class="grupo">
+    </form>
+</body>
+</html>
